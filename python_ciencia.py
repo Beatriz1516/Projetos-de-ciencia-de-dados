@@ -36,9 +36,12 @@ varejo = [['Abacate', 'Abacaxi', 'Açaí', 'Acerola', 'Ameixa', 'Amora', 'Ananá
 df_varejo = pd.DataFrame({
     "Frutas": varejo[0],
     "Preço_kilo": varejo[1],
-    "Região": varejo[2]
+    "Regiao": varejo[2]
 })
 print(df_varejo)
 
-df_varejo.head()
+# visualizar por coluna
+df_varejo ['Regiao']
 
+# visualizar os cinco primeiros
+df_varejo.head()
